@@ -1,0 +1,24 @@
+<html >
+<script type="text/javascript">
+var n = prompt("Enter a number ");
+n = parseInt(n);
+if (isNaN(n))
+{
+alert("Please Enter a Number");
+}
+else
+{
+if (n%2)
+{
+alert(n+ " is Odd Number ");
+}
+else
+{
+alert(n+ " is Even Number");
+}
+}
+</script>
+</head>
+<body bg>
+</body>
+</html>
